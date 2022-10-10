@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="btn-0" class="tab">Conversor de graus Fahrenheit para graus Celsius e Kelvin</button>
+        <button id="btn-1" class="tab">Calculadora de área e volume de uma esfera</button>
+        <button id="btn-2" class="tab">Calculadora de área e perímetro de um círculo</button>
+    <header>
+    <div class="container">
+        <div class="wrapper" id="wrapper-0">
+            <h2>Conversor de graus Fahrenheit para graus Celsius e Kelvin</h2>
+            <label>Valor Fahrenheit:</label>
+            <input type="number" id="entrada-F">
+            <label>Resultado °C:</label> 
+            <input type="text" id="result-c" disabled/>
+            <label>Resultado Kelvin:</label> 
+            <input type="text" id="result-k" disabled/>
+        </div>
+
+        <div class="wrapper" id="wrapper-1">
+            <h2>Calculadora de área e volume de uma esfera</h2>
+            <label>Raio da esfera:</label>
+            <input type="number" id="raio">
+            <label>Resultado da área:</label>
+            <input type="text" id="result-area" disabled/>
+            <label>Resultado do Volume:</label>
+            <input type="text" id="result-volume" disabled/>
+        </div>
+        <div class="wrapper" id="wrapper-2">
+            <h2>Calculadora de área e perímetro de um círculo</h2>
+            <label>Raio do círculo:</label>
+            <input type="number" id="raio2">
+            <label>Área:</label>
+            <input type="text" id="result-area2" disabled/>
+            <label>Perímetro:</label>
+            <input type="text" id="result-peri" disabled/>
+        </div>
+    </div>
+</body>
+</html>
